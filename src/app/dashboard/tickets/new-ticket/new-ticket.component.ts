@@ -21,7 +21,7 @@ export class NewTicketComponent {
   onFormsSubmit(title: string,text:string) {
   console.log("title = "+title+" Request = "+text);
   this.form?.nativeElement.reset();
-  this.form?.nativeElement.get
+  // this.form?.nativeElement.get
  }
 
 }
